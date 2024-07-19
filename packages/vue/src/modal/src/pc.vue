@@ -105,8 +105,8 @@ export default defineComponent({
     const confirmButtonProps =
       Object.prototype.toString.call(confirmBtnProps) === '[object Object]' ? confirmBtnProps : {}
     const cancelButtonProps = Object.prototype.toString.call(cancelBtnProps) === '[object Object]' ? cancelBtnProps : {}
-    const confirmButtonText = confirmContent ?? confirmBtnProps.text ?? t('ui.button.confirm')
-    const cancelButtonText = cancelContent ?? cancelButtonProps.text ?? t('ui.button.cancel')
+    const confirmButtonText = confirmContent ?? confirmBtnProps.text ?? t('ui.base.confirm')
+    const cancelButtonText = cancelContent ?? cancelButtonProps.text ?? t('ui.base.cancel')
 
     const STATUS_MAPPING_COMPINENT = {
       QUESTION: iconHelpSolid(),
@@ -282,7 +282,7 @@ export default defineComponent({
                                     click: this.cancelEvent
                                   }
                                 },
-                                cancelContent || t('ui.button.cancel')
+                                cancelContent || t('ui.base.cancel')
                               )
                             : null,
                           h(
@@ -295,7 +295,7 @@ export default defineComponent({
                                 click: this.confirmEvent
                               }
                             },
-                            confirmContent || t('ui.button.confirm')
+                            confirmContent || t('ui.base.confirm')
                           )
                         ]
                       : [

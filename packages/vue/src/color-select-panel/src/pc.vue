@@ -6,7 +6,7 @@
       <tiny-input v-model="state.res" />
       <tiny-button-group>
         <tiny-button type="text" @click="onCancel">
-          {{ t('ui.colorSelectPanel.cancel') }}
+          {{ t('ui.base.cancel') }}
         </tiny-button>
         <tiny-button @click="onConfirm">
           {{ t('ui.colorSelectPanel.confirm') }}

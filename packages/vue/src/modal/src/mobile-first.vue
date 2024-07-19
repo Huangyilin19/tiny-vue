@@ -200,7 +200,7 @@ export default defineComponent({
                     click: this.cancelEvent
                   }
                 },
-                cancelContent || t('ui.button.cancel')
+                cancelContent || t('ui.base.cancel')
               )
             : null,
           h(
@@ -215,7 +215,7 @@ export default defineComponent({
                 click: this.confirmEvent
               }
             },
-            confirmContent || t('ui.button.confirm')
+            confirmContent || t('ui.base.confirm')
           )
         ]
       ),
@@ -240,7 +240,7 @@ export default defineComponent({
                     click: this.cancelEvent
                   }
                 },
-                cancelContent || t('ui.button.cancel')
+                cancelContent || t('ui.base.cancel')
               )
             : null,
           type === 'confirm' ? h('span', { class: 'border-r border-r-color-border-separator' }) : null,
@@ -256,7 +256,7 @@ export default defineComponent({
                 click: this.confirmEvent
               }
             },
-            confirmContent || t('ui.button.confirm')
+            confirmContent || t('ui.base.confirm')
           )
         ]
       )

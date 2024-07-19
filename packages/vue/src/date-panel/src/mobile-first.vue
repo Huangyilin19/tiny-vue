@@ -192,7 +192,7 @@
           :class="['float-right', gcls('link-btn')]"
           @click="confirm"
         >
-          {{ t('ui.datepicker.confirm') }}
+          {{ t('ui.base.confirm') }}
         </tiny-button>
       </div>
     </div>

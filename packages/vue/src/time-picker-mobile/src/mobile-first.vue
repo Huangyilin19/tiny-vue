@@ -22,7 +22,7 @@
       </template>
       <template #header-left>
         <span v-if="clearable" class="cursor-pointer text-color-brand" @click="clear">
-          {{ t('ui.datepicker.clear') }}
+          {{ t('ui.base.clear') }}
         </span>
       </template>
     </tiny-cascader-select>

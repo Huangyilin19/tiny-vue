@@ -120,7 +120,7 @@
               :reset-time="0"
               @click="confirm"
             >
-              {{ t('ui.button.confirm') }}
+              {{ t('ui.base.confirm') }}
             </tiny-button>
           </div>
         </div>

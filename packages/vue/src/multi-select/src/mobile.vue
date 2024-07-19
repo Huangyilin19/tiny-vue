@@ -108,7 +108,7 @@
           v-show="state.showOptions && dataSource[state.headerIndex]?.hasFooter"
         >
           <tiny-button round size="large" type="secondary" @click="reset">{{ t('ui.base.reset') }}</tiny-button>
-          <tiny-button round size="large" type="primary" @click="confirm">{{ t('ui.button.confirm') }}</tiny-button>
+          <tiny-button round size="large" type="primary" @click="confirm">{{ t('ui.base.confirm') }}</tiny-button>
         </div>
       </slot>
     </div>

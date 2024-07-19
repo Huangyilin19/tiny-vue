@@ -65,7 +65,7 @@
             "
             :disabled="isDisabled"
             @click="confirm"
-            >{{ t('ui.button.confirm') }}</tiny-button
+            >{{ t('ui.base.confirm') }}</tiny-button
           >
         </div>
       </div>

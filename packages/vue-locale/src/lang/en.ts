@@ -80,14 +80,6 @@ export default {
       clear: 'Clear',
       comma: ','
     },
-    button: {
-      cancel: 'Cancel',
-      confirm: 'Confirm'
-    },
-    buttonMessage: {
-      cancel: 'Cancel',
-      confirm: 'Confirm'
-    },
     cell: {
       placeholder: 'Select'
     },

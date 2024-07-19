@@ -27,7 +27,7 @@
       </div>
       <div class="tiny-time-panel__footer">
         <button type="button" class="tiny-time-panel__btn cancel" @click="handleCancel">
-          {{ t('ui.datepicker.cancel') }}
+          {{ t('ui.base.cancel') }}
         </button>
         <button
           type="button"
@@ -35,7 +35,7 @@
           :class="{ confirm: !state.disabled }"
           @click="handleConfirm()"
         >
-          {{ t('ui.datepicker.confirm') }}
+          {{ t('ui.base.confirm') }}
         </button>
       </div>
     </div>

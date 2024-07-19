@@ -119,7 +119,7 @@
           type="primary"
           :reset-time="0"
           @click="confirm"
-          >{{ t('ui.button.confirm') }}</tiny-button
+          >{{ t('ui.base.confirm') }}</tiny-button
         >
       </template>
     </tiny-action-sheet>

@@ -132,7 +132,7 @@
             :reset-time="0"
             @click="confirm"
           >
-            {{ t('ui.button.confirm') }}
+            {{ t('ui.base.confirm') }}
           </tiny-button>
         </div>
       </div>
@@ -148,7 +148,7 @@
       @update:visible="state.selected.show = $event"
     >
       <template #header-left>
-        <div class="cursor-pointer text-color-text-placeholder" @click="clean">{{ t('ui.datepicker.clear') }}</div>
+        <div class="cursor-pointer text-color-text-placeholder" @click="clean">{{ t('ui.base.clear') }}</div>
       </template>
 
       <div class="h-full overflow-auto scrollbar-size-0">
@@ -180,7 +180,7 @@
           :reset-time="0"
           @click="toggleCheckList(false)"
         >
-          {{ t('ui.button.confirm') }}
+          {{ t('ui.base.confirm') }}
         </tiny-button>
       </template>
     </tiny-action-sheet>

@@ -43,10 +43,10 @@
           <div class="hidden sm:flex mt-4 justify-end">
             <slot name="footer">
               <tiny-button v-if="cancelButton" class="mr-2 w-16" size="mini" tiny_mode="mobile-first" @click="hide">{{
-                t('ui.buttonMessage.cancel')
+                t('ui.base.cancel')
               }}</tiny-button>
               <tiny-button class="w-16" size="mini" tiny_mode="mobile-first" type="primary" @click="confirm">{{
-                t('ui.buttonMessage.confirm')
+                t('ui.base.confirm')
               }}</tiny-button>
             </slot>
           </div>
@@ -58,7 +58,7 @@
                 tiny_mode="mobile-first"
                 type="text"
                 @click="hide"
-                >{{ t('ui.buttonMessage.cancel') }}</tiny-button
+                >{{ t('ui.base.cancel') }}</tiny-button
               >
               <span v-if="cancelButton" class="border-r border-r-color-border-separator"></span>
               <tiny-button
@@ -66,7 +66,7 @@
                 tiny_mode="mobile-first"
                 type="text"
                 @click="confirm"
-                >{{ t('ui.buttonMessage.confirm') }}</tiny-button
+                >{{ t('ui.base.confirm') }}</tiny-button
               >
             </slot>
           </div>

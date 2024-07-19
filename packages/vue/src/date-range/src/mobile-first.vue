@@ -251,7 +251,7 @@
           @click="handleClear"
           custom-class="text-left pl-0"
         >
-          {{ t('ui.datepicker.clear') }}
+          {{ t('ui.base.clear') }}
         </tiny-button>
         <tiny-button
           type="primary"
@@ -261,7 +261,7 @@
           :disabled="state.btnDisabled"
           @click="handleConfirm(false)"
         >
-          {{ t('ui.datepicker.confirm') }}
+          {{ t('ui.base.confirm') }}
         </tiny-button>
       </div>
     </div>

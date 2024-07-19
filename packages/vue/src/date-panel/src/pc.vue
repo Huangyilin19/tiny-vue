@@ -221,7 +221,7 @@
           {{ t('ui.datepicker.now') }}
         </tiny-button>
         <tiny-button type="primary" size="mini" class="tiny-picker-panel__link-btn" @click="confirm">
-          {{ t('ui.datepicker.confirm') }}
+          {{ t('ui.base.confirm') }}
         </tiny-button>
       </div>
     </div>

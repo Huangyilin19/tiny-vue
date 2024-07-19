@@ -36,10 +36,10 @@
           custom-class="text-color-brand text-left p-0"
           @click="handleCancel"
         >
-          {{ t('ui.datepicker.cancel') }}
+          {{ t('ui.base.cancel') }}
         </tiny-button>
         <tiny-button data-tag="tiny-time-panel__btn" type="primary" :disabled="state.disabled" @click="handleConfirm()">
-          {{ t('ui.datepicker.confirm') }}
+          {{ t('ui.base.confirm') }}
         </tiny-button>
       </div>
     </div>

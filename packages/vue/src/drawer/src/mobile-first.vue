@@ -64,10 +64,10 @@
           <div class="flex-1 text-right">
             <slot name="footer">
               <tiny-button tiny_mode="mobile-first" @click="handleClose('cancel')">{{
-                t('ui.button.cancel')
+                t('ui.base.cancel')
               }}</tiny-button>
               <tiny-button tiny_mode="mobile-first" class="ml-2" type="primary" @click="handleClose('confirm')">{{
-                t('ui.button.confirm')
+                t('ui.base.confirm')
               }}</tiny-button>
             </slot>
           </div>

@@ -85,7 +85,7 @@
       <div data-tag="action-sheet-footer" ref="footer" v-if="showFooter" class="flex flex-none pt-2 justify-center">
         <slot name="footer" :before-close="beforeClose">
           <tiny-button tiny_mode="mobile-first" class="flex-1 mx-4 sm:mx-0" type="primary" @click="confirm">{{
-            t('ui.button.confirm')
+            t('ui.base.confirm')
           }}</tiny-button>
         </slot>
       </div>

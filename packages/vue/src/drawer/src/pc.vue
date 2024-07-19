@@ -80,13 +80,13 @@
                 type="primary"
                 :class="['tiny-drawer__confirm-btn', { reverse: state.btnOrderReversed }]"
                 @click="handleClose('confirm')"
-                >{{ t('ui.button.confirm') }}</tiny-button
+                >{{ t('ui.base.confirm') }}</tiny-button
               >
               <tiny-button
                 plain
                 :class="['tiny-drawer__cancel-btn', { reverse: state.btnOrderReversed }]"
                 @click="handleClose('cancel')"
-                >{{ t('ui.button.cancel') }}</tiny-button
+                >{{ t('ui.base.cancel') }}</tiny-button
               >
             </slot>
           </div>

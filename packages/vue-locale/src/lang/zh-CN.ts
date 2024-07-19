@@ -83,14 +83,6 @@ export default {
       clear: '清空',
       comma: '，'
     },
-    button: {
-      cancel: '取消',
-      confirm: '确定'
-    },
-    buttonMessage: {
-      cancel: '取消',
-      confirm: '确定'
-    },
     cell: {
       placeholder: '请选择'
     },
@@ -111,7 +103,6 @@ export default {
     },
     colorSelectPanel: {
       confirm: '选择',
-      cancel: '取消',
       predefine: '预定义颜色',
       history: '历史记录',
       empty: '暂无'
@@ -121,8 +112,6 @@ export default {
       croppedImage: '裁剪后图像'
     },
     datepicker: {
-      clear: '清空',
-      cancel: '取消',
       endDate: '结束日期',
       confirm: '确定',
       month: '月',

@@ -132,8 +132,8 @@
             ></tiny-pager>
           </div>
           <div class="tiny-dialog-select__footer-buttons">
-            <tiny-button @click="onFooterCancel">{{ t('ui.button.cancel') }}</tiny-button>
-            <tiny-button @click="onFooterConfirm" type="primary">{{ t('ui.button.confirm') }}</tiny-button>
+            <tiny-button @click="onFooterCancel">{{ t('ui.base.cancel') }}</tiny-button>
+            <tiny-button @click="onFooterConfirm" type="primary">{{ t('ui.base.confirm') }}</tiny-button>
           </div>
         </div>
       </slot>

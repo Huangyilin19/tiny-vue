@@ -174,7 +174,7 @@ export default defineComponent({
                                   click: this.cancelEvent
                                 }
                               },
-                              t('ui.button.cancel')
+                              t('ui.base.cancel')
                             )
                           : null,
                         h(
@@ -188,7 +188,7 @@ export default defineComponent({
                               click: this.confirmEvent
                             }
                           },
-                          t('ui.button.confirm')
+                          t('ui.base.confirm')
                         )
                       ]
                 )

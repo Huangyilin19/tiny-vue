@@ -9,7 +9,7 @@
       @update:visible="$emit('update:visible', $event)"
     >
       <template #header-left v-if="clearable">
-        <div class="cursor-pointer text-color-brand" @click="clear">{{ t('ui.datepicker.clear') }}</div>
+        <div class="cursor-pointer text-color-brand" @click="clear">{{ t('ui.base.clear') }}</div>
       </template>
       <!-- box -->
       <div data-tag="tiny-date-picker-inner" :class="['flex flex-col flex-auto h-full']">
@@ -174,7 +174,7 @@
               :reset-time="0"
               @click="confirm"
             >
-              {{ t('ui.button.confirm') }}
+              {{ t('ui.base.confirm') }}
             </tiny-button>
           </div>
         </div>
